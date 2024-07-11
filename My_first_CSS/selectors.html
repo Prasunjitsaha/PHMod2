@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+           margin:0;
+           background-color: aqua;
+           padding: 20px;
+        }
+        
+        p{
+            color: red;
+            background-color: yellowgreen;
+        }
+        #fifth ,li{
+            font-size: 25px;
+        }
+        .yellow{
+            background-color: yellow;
+            width:100%;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        .color{
+           <!-- color:green;-->
+        }
+        input[type="password"]{
+            color:green;
+
+        }
+        div{
+            background-color: aqua;
+            
+        }
+        span{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <p>My first Line CSS</p>
+    <p>My second Line CSS</p>
+    <p class="yellow">My Third Line CSS</p>
+    <p>My fourth Line CSS</p>
+    <p id="fifth">My fifth Line CSS</p>
+    <p>My sixth Line CSS</p>
+    <p class="yellow bold">My seventh Line CSS</p>
+    <p>My eighth Line CSS</p>
+    <p>My nineth Line CSS</p>
+    <p>My tenth Line CSS</p>
+    <ol>
+        <li>selection grade</li>
+        <li class="bold yellow">supernumeri grade</li>
+        <li>senior grade</li>
+        <li>junior grade</li>
+    </ol>
+    <form action="" >
+        <label for="">Your Name:</label>
+        <input type="text" placeholder="Your UserID" class="input">
+        <br>
+        <br>
+        <label for="">Your Name:</label>
+        <input type="password" placeholder="Your Password" class="input">
+        <br style="padding: 10px;">
+        <br>
+        <button style="font-weight: bolder;">submit</button>
+    </form>
+
+    <div class="yellow">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptate et molestiae distinctio possimus fugiat totam velit, minus ab sed corporis doloremque. Totam eligendi quod quisquam nam nisi asperiores dolorum. <span>LOREM IPSUM MEANS A LOT</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore consectetur iste doloremque similique eaque, quaerat qui in deleniti voluptatibus eius, ullam corrupti soluta. Unde ad saepe repellat commodi consequuntur culpa?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptate et molestiae distinctio possimus fugiat totam velit, minus ab sed corporis doloremque. Totam eligendi quod quisquam nam nisi asperiores dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore consectetur iste doloremque similique eaque, quaerat qui in deleniti voluptatibus eius, ullam corrupti soluta. Unde ad saepe repellat commodi consequuntur culpa?</p>
+    </div>
+</body>
+</html>
